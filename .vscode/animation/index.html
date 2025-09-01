@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 500px;
+            background-color: palevioletred;
+            animation-name: suman2;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+            /* animation: suman 2s ease-in 0s infinite normal; */
+
+            /* animation: mohit 5s ease-out 4s infinite normal ;
+         */
+        }
+
+        /* @keyframes suman {
+            from {
+                font-size: 20px;
+            }
+
+            to {
+                font-size: 40px;
+            }
+        } */
+
+        /* @keyframes mohit {
+            from {
+                background-color: aqua;
+            }
+            to {
+                background-color: green;
+            }
+
+        } */
+
+        @keyframes suman2 {
+
+            0% {
+                background-color: purple;
+            }
+
+            50% {
+                background-color: yellow;
+                border-radius: 30%;
+            }
+
+            80% {
+                background-color: brown;
+            }
+
+            100% {
+                background-color: rgb(18, 99, 205);
+                border-radius: 50%;
+            }
+            /* from {
+                font-size: 20px;
+                width: 100px;
+                background-color: green;
+
+            }
+            to {
+                width: 600px;
+                font-size: 60px;
+                background-color: rgb(7, 7, 83);
+                border-radius: 40%;
+                color: rgb(236, 235, 232);
+                /* margin: auto; */
+                /* padding: 50px; */
+                
+            /* }* */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Animation</h1>
+    <div class="box">
+this is a box
+    </div>
+</body>
+</html>
